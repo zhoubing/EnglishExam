@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        new Native().print();
+//        new Native().print();
     }
 
     private void initQuestions() {

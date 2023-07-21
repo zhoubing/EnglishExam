@@ -21,14 +21,14 @@ android {
                 abiFilters "armeabi-v7a"
             }
         }
-        ndk {
-            abiFilters "armeabi-v7a"
-        }
+//        ndk {
+//            abiFilters "armeabi-v7a"
+//        }
     }
     externalNativeBuild {
         cmake {
             path "CMakeLists.txt"
-            version "3.10.2"
+            version "3.18.1"
         }
     }
     buildFeatures {
